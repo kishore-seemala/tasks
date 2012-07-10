@@ -10,7 +10,6 @@ class Const
 
    def method
 
-
       print "_________ inside Const instance method _____________ \n\n"   
       print "the value of constant is : "+Len.to_s+"\n\n"
 
