@@ -17,7 +17,6 @@ class Sqrt
       
    end
 
-
 end
 
 s=Sqrt.new
