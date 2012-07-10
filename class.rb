@@ -9,9 +9,7 @@ class Class_var
 
    end
 
-
 end
-
 
 print "\n_______ printing the instance count using class variable and class method ____________ \n\n"
 
