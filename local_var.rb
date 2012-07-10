@@ -1,9 +1,9 @@
 class Var
 
    def var_ref(c,d)
-   print "\n_____________ values passed to a method are by default by its reference ___________ \n\n"
-   print "the reference of c:"+c.object_id.to_s+"\n\n"
-   print "the reference of d:"+d.object_id.to_s+"\n\n"
+      print "\n_____________ values passed to a method are by default by its reference ___________ \n\n"
+      print "the reference of c:"+c.object_id.to_s+"\n\n"
+      print "the reference of d:"+d.object_id.to_s+"\n\n"
    end
                                      
 end
