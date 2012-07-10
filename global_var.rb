@@ -13,11 +13,11 @@ class Class1
    end
 
    def gl
+   
        print "_________ in class 1 instance method ____________\n\n"
        print "the value of the global variable is : "+$g_var+"\n\n"
 
    end
-
 
 end
 
@@ -31,7 +31,6 @@ class Class2
       print "the value of the global variable is : "+$g_var+"\n\n"
       print "the value of p is : "+p+"\n\n" 
 
-
    end
 
    def gl
@@ -40,7 +39,6 @@ class Class2
        print "the value of the global variable is : "+$g_var+"\n\n"
 
    end
-
 
 end
 
