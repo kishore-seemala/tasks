@@ -8,20 +8,19 @@ class Rect
    end
 
 
-   def hallow_rect
+   def solid_rect
 
       s="*"
-      w=" "
+     
+      for j in 1..@h			#loop to continue till the height of the rectangle
 
-      for j in 1..@h
+         for i in 1..@w			#loop to continue till the width of the rectangle
 
-         for i in 1..@w
-
-            print s
+            print s			#to print the solid part of the rectangle
 
          end
 
-         print "\n"
+         print "\n"			#to jump to the next line of the rectangle
 
       end
 
@@ -29,16 +28,13 @@ class Rect
 
 end
 
+print "enter height and width\n"	#prompt the user to give height and width of rectangle
 
-
-
-print "enter height and width\n"
-
-h=gets.chomp.to_i
+h=gets.chomp.to_i			#get input from user
 
 w=gets.chomp.to_i
 
 r=Rect.new(h,w)
 
-r.hallow_rect
+r.solid_rect
 

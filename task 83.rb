@@ -7,13 +7,12 @@ class Rect
 
    end
 
-
    def hallow_rect
 
       s="*"
       w=" "
 
-      for i in 1..@w
+      for i in 1..@w		
       print s
       end
 
@@ -54,10 +53,6 @@ h=gets.chomp.to_i
 w=gets.chomp.to_i
 
 r=Rect.new(h,w)
-
-print h.to_s+"\n"
-
-print w.to_s+"\n"
 
 r.hallow_rect
 

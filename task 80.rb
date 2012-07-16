@@ -31,7 +31,7 @@ def hallow_triangle(h)
 
       if a>0
 
-         print s
+          print s
 
       end
 
